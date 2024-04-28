@@ -1,8 +1,8 @@
 [package]
-org = "avinyafoundation"
+org = "planttracker"
 name = "global_data_client"
-version = ".4.3"
-distribution = "2201.1.1"
+version = "2.1.0"
+distribution = "2201.5.0"
 
 [build-options]
 observabilityIncluded = true
