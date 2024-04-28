@@ -1,7 +1,7 @@
 import ballerina/graphql;
 import ballerina/sql;
 
-service graphql:Service /graphql on new graphql:Listener(5000) {
+service graphql:Service /graphql on new graphql:Listener(4000) {
 
     isolated resource function get person_by_digital_id(string? id) returns PersonData|error? {
 
