@@ -19,7 +19,7 @@ version: 0.1
 
 # +required List of endpoints to create
 endpoints:
-- name: Greeting GraphQL
+- name: Plant Tracker GraphQL
   # +required Numeric port value that gets exposed via this endpoint
   port: 4000
   # +required Type of the traffic this endpoint is accepting. Example: REST, GraphQL, etc.
